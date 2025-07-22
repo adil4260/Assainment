@@ -43,7 +43,7 @@
 }
  .banner-description{
     font-size: 48px;
-    font-weight: 600px;
+    font-weight: 600;
     margin-bottom: 40px;
     color:#252432;
  }
@@ -160,7 +160,7 @@
 }
 .reviewer-info{
    display: flex;
-  width: 600px;
+  width: 100px;
   height: 50px;
   
 }
@@ -172,4 +172,40 @@
 }
 .loved-by{
   
+}
+
+
+.preview-section {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  border-radius: 13px;
+    /* text-align: center; */
+   padding: 20px 20px;
+    margin: 0 auto; 
+    max-width: 800px;
+ 
+  background-color: #f4f6fc;
+}
+
+.preview-content {
+  text-align: center;
+}
+
+
+
+.preview-description{
+  color: rgb(126, 125, 125);
+}
+
+.preview-visual {
+  /* flex: 1; */
+  text-align: center;
+  padding: 30px;
+}
+
+.preview-image {
+  width: 90%;
+  max-width: 420px;
+  border-radius: 20px;
 }
